@@ -63,3 +63,63 @@ default:
 console.log('you case is not match with any age !25')
 break;
 }
+
+
+
+
+/////////check the two condition using && operator ,.....
+
+// table
+// Operand 1	Operand 2	AND
+// true	true	true
+// true	false	false
+// false	true	false
+// false	false	false
+function AND(num) {
+	if (num>4&&num<=20){
+		return '4 greter then and 20 less then'
+	}
+	return 'it no 4 less then and 20 greter then'
+	// body...
+}
+console.log('4>less then',AND(2))
+console.log('4greater< then',AND(13))
+console.log('20 less then',AND(22))
+///end ..........
+
+
+//OR operator is the Called Logical AND operator.
+ // If both the operands are non-zero, then condition becomes true. ...
+ //  Called Logical OR Operator. If any of the two operands is non-zero, 
+ //  then condition becomes true. (A || B) is tru
+
+function or(no){
+	if(no>20||no<5){
+		return 'OUTSIDE'
+	}
+	return 'INSIDE'
+
+}
+
+console.log('20 or 5 se choti value',or(4))
+console.log('20 or 5 ke ander ki value',or(10))
+
+
+
+
+
+
+/////////////////////////////how to find factorial  no by using the recursive function
+///factorial of number ...
+//the *****(5) factorial is 5*4*3*2*1=120
+ function fact(num){
+    if(num==0||num==1)
+	 return 1;
+	else
+	   return num*fact(num-1)
+}
+let num1=5;
+
+console.log('no of factorial',fact(num1))
+//solve problem  recursive functoin always work like a loop autometic call dynamicly workk.
+// ...........end.....

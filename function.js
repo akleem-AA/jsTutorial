@@ -21,30 +21,16 @@ greet()//this contion greet function call hello and undifine becous greet only f
 
 
 
-///factorial of number ...
- function fact(num){
-	if(num==0||num==1)
-		return 1;
-		else
-			return num*fact(num-1)
-		
-	
-	
+
+
+///what could one function call to another function()
+function sum(a,b){
+	return a+b;
 
 }
-let num1=5;
-
-console.log('no of factorial',fact(num1))
-//solve problem then feeling is fantastic recursive functoin always work like a loop autometic call dynamicly workk.
-function fibn(n){
-	if(n==0)
-		return 0;
-	if(n==0||n==2)
-		return 1;
-	else 
-		return fibn(n-1)+fibn(n-2);
+function result(res){
+	return res/2;
 }
-let n=5;
-for (let i=0; i<n; i++) {
-	console.log('fibnonicc no',fibn(i));
-}
+console.log('result',result(4))
+console.log('duble funtion call ',result(sum(5,5)))//the doble functon call togther
+//////yes to function is simply call one in another

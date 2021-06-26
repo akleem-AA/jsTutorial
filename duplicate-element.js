@@ -20,19 +20,6 @@ console.log(str3)
 
 
 
-/////////////////////////////how to get factorial by using the recursive function
-///factorial of number ...
- function fact(num){
-    if(num==0||num==1)
-	 return 1;
-	else
-	   return num*fact(num-1)
-}
-let num1=5;
-
-console.log('no of factorial',fact(num1))
-//solve problem then feeling is fantastic recursive functoin always work like a loop autometic call dynamicly workk.
-// ...........end.....
 
 
 

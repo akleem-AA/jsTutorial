@@ -123,3 +123,56 @@ let num1=5;
 console.log('no of factorial',fact(num1))
 //solve problem  recursive functoin always work like a loop autometic call dynamicly workk.
 // ...........end.....
+
+
+
+//if  two condition without using else statment
+
+function check(a){
+	if(a<3){
+		return 'less then 3';
+	}
+		return 'greter then 3';
+	
+	
+}
+console.log("one if condtion return not used {}",check(4))
+//
+
+//allways fist condition is execute then second contion execute in tihs case
+function fist(a){
+	if(a<5){
+		return '5 is greater then ';
+	}
+
+else if(a<3){
+	return '3 is greater'
+}
+else{
+	return 'b/w 3 and 5'
+}
+
+}
+console.log('whcih one conditon fist execute',fist(2))
+//outpur 5 is greater then becous 2<5 it conditoin is true 
+
+
+
+// Take these two functions as an example.
+// question =input 4 then output less then 5 and if the input 3 output is less then 10
+function orderMyLogic(val) {
+  if (val < 10 && val=4) {
+    
+      return "the equel 4"
+    }
+    return "Less than 10";
+   else if (val < 5) {
+    return "Less than 5";
+  } else {
+    return "Greater than or equal to 10";
+  
+}
+}
+
+console.log('result check',orderMyLogic(4));//output is currect -the equel then 4
+console.log('second result',orderMyLogic(3))//otuput is some not pirint less then 10 his pring the equel

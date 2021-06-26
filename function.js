@@ -34,3 +34,11 @@ function result(res){
 console.log('result',result(4))
 console.log('duble funtion call ',result(sum(5,5)))//the doble functon call togther
 //////yes to function is simply call one in another
+
+
+
+///arrow function....
+let arro=(user)=>{
+	return "hello akleem khan "
+}
+console.log(arro());//output 'hello akleem khan '

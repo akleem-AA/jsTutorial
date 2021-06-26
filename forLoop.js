@@ -4,12 +4,27 @@ console.log("hello loop")
 // 	console.log(i)
 // }
 //while loop 
+
+
+
+//for loop...//print the 1 to 100 no number using by forLoop.....
+for(let i=0;i<100;i++){
+	console.log(i)
+}
+//////////question=== I want each number to be divisible by 3 or 2. 
+for(let i=0;i<50;i++){
+	if(i%2===1){//0 is the remender yadi zero ki jahga jo value bi rakkege like 1 ,3,2 kuch bi to i%2=3 kuch print nhi hoga becous 
+		//2 ya 3 remender nhi bachega... i%2==1 that print even like  1,3,5,7,9etc,i%2===0 that print 2,4,6,8 etc
+		console.log(i,"divided and remeder only evern and odd no print ")
+	}
+}
+//1 to 10 number print using by while loop ......
 let a=0;
 while(a<10){
 	console.log(a,'hello')
 	a+=1;
 }
-//do while 
+//10 to20 no print by using do while loop.......
 let k=0;
 do{
 	
@@ -121,3 +136,15 @@ for(let ak in obj1){
 }
 
 //object
+
+//if we want to give a reverse no any reamdom no to % solve tham..example
+let num= 1234566;
+console.log(num%10)//alwase last disit print of number 
+num =parseInt(num/10)
+
+//empty arr push the value 1 to 10 by using loop and PUSH conditoin
+let arr2=[];
+for(let i=1;i<=10;i++){
+	arr2.push(i)
+}
+console.log(arr2)
